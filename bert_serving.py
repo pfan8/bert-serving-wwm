@@ -11,7 +11,7 @@ import pickle
 bc = BertClient(ip='localhost')
 
 data = []
-file = '/Users/mac/nlp/baidu_95.csv' # 语料
+file = 'baidu_95.csv' # 语料
 with open(file, 'r', encoding='utf8') as f:
 	for line in tqdm(f.readlines()):
 		words = line.split(' ')
